@@ -17,10 +17,5 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ],
-  "functions": {
-    "src/main.tsx": {
-      "includeFiles": "dist/**"
-    }
-  }
+  ]
 }
