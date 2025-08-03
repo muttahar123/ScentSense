@@ -48,7 +48,7 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
       className="group cursor-pointer"
     >
       <Link href={`/products/${product.id}`}>
-        <Card className="overflow-hidden bg-white shadow-lg hover:shadow-xl transition-all duration-500 transform hover:scale-105 hover-lift">
+        <Card className="overflow-hidden bg-white shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover-lift border-2 hover:border-luxury-gold/30">
           <div className="relative overflow-hidden bg-cream">
             <img
               src={product.image}

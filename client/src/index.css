@@ -1,3 +1,6 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -29,6 +32,8 @@
   --soft-gold: hsl(45, 80%, 75%);
   --cream: hsl(45, 25%, 98%);
   --elegant-dark: hsl(30, 15%, 15%);
+  --gradient-gold: linear-gradient(135deg, hsl(45, 90%, 55%) 0%, hsl(38, 85%, 50%) 100%);
+  --glass-effect: rgba(255, 255, 255, 0.1);
 }
 
 .dark {
@@ -156,9 +161,6 @@
     scroll-behavior: smooth;
   }
 }
-
-/* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
 
 /* Custom animations */
 @keyframes float {

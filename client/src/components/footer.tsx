@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h3 className="font-playfair text-2xl font-bold mb-6 text-luxury-gold">
-              Aurum Fragrances
+              Fragrance
             </h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Creating luxury fragrances that tell stories and evoke emotions since 1990.

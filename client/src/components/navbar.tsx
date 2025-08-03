@@ -27,10 +27,10 @@ export default function Navbar({ onCartClick }: NavbarProps) {
 
   return (
     <nav className={cn(
-      "fixed top-0 w-full z-50 transition-all duration-300",
+      "fixed top-0 w-full z-50 transition-all duration-500",
       isTransparent 
         ? "bg-transparent" 
-        : "bg-white/95 backdrop-blur-md shadow-lg"
+        : "bg-white/90 backdrop-blur-xl shadow-2xl border-b border-luxury-gold/20"
     )}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
@@ -40,7 +40,7 @@ export default function Navbar({ onCartClick }: NavbarProps) {
               "text-2xl font-playfair font-bold transition-colors",
               isTransparent ? "text-white" : "text-luxury-gold"
             )}>
-              Aurum Fragrances
+              Fragrance
             </div>
           </Link>
 

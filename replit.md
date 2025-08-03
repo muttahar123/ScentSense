@@ -1,8 +1,8 @@
-# Luxury Fragrance E-commerce Application
+# Fragrance - Luxury E-commerce Application
 
 ## Overview
 
-This is a full-stack luxury fragrance e-commerce application built with a modern tech stack. The application features a premium shopping experience with a sophisticated frontend, RESTful API backend, and comprehensive admin functionality. It includes product catalog management, shopping cart functionality, blog system, and order processing.
+This is a full-stack luxury fragrance e-commerce application built with a modern tech stack. The application features a premium shopping experience with the brand name "Fragrance", sophisticated golden-themed UI, RESTful API backend, and comprehensive admin functionality. It includes product catalog management, shopping cart functionality, blog system, and order processing. The application is now fully configured for easy Vercel deployment.
 
 ## User Preferences
 
@@ -91,3 +91,29 @@ The application is designed for deployment on Replit with the following build pr
    - Sample data seeded through in-memory storage initialization
 
 The architecture supports easy scaling and deployment to various platforms while maintaining development velocity and code quality.
+
+## Recent Updates (August 2025)
+
+### Brand Identity
+- ✅ Updated brand name from "Aurum Fragrances" to "Fragrance"
+- ✅ Consistent branding across navbar, footer, and all components
+
+### UI Enhancements
+- ✅ Enhanced navbar with better blur effects and golden borders
+- ✅ Improved product cards with hover effects and golden accent borders
+- ✅ Fixed CSS import issues and optimized styling
+- ✅ Better visual hierarchy and luxury aesthetic
+
+### Vercel Deployment Configuration
+- ✅ Created separate client package.json for standalone deployment
+- ✅ Added comprehensive Vercel configuration files
+- ✅ TypeScript configuration optimized for Vercel builds
+- ✅ Environment variable setup for API connections
+- ✅ Static asset handling and SPA routing support
+- ✅ Complete deployment guide (DEPLOYMENT.md)
+
+### Deployment Options
+1. **Client-Only Deployment**: Deploy just the frontend as a static site
+2. **Full-Stack Deployment**: Deploy both client and server to Vercel
+3. **Custom Domain Support**: Ready for custom domain configuration
+4. **Real-time Updates**: Automatic builds and CDN distribution
